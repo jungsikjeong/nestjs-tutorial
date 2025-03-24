@@ -1,0 +1,8 @@
+### 새 사용자 생성
+POST http://localhost:3000/auth/signup
+Content-type: application/json
+
+{
+  "email":"wndtlr1024@gmail.com",
+  "password":"sdsdfsf"
+}
