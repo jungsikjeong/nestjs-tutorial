@@ -9,3 +9,6 @@ Content-type: application/json
 
 ### 사용자 조회
 GET http://localhost:3000/auth/1
+
+### 이메일로 모든 사용자 찾기
+GET http://localhost:3000/auth?email=wndtlr1024@gmail.com
