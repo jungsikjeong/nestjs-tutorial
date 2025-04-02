@@ -1,12 +1,20 @@
 ### 새 사용자 생성
+POST http://localhost:3000/auth/signup
+Content-type: application/json
+
+{
+  "email":"test@gmail.com",
+  "password":"123123"
+}
+
+### 기존 사용자 로그인하기
 POST http://localhost:3000/auth/signin
 Content-type: application/json
 
 {
-  "email":"wndtlr10241024@gmail.com",
-  "password":"sdsdfsf"
+  "email":"test@gmail.com",
+  "password":"123123"
 }
-
 ### 사용자 조회
 GET http://localhost:3000/auth/1
 
